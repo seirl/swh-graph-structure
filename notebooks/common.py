@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from functools import cached_property
 
+# "The Graph Structure of Public Software Development"
 #Antoine Pietri(1), Guillaume Rousseau(2) and Stefano Zacchiroli(3)
 #1. Inria, Paris, France. antoine.pietri@inria.fr
 #2. Université de Paris, Paris, France. guillaume.rousseau@u-paris.fr
