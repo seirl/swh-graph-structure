@@ -3,6 +3,13 @@
 This repository contains the data and a replication package for the article:
 *The Graph Structure of Software Development*.
 
+Antoine Pietri$^{1}, Guillaume Rousseau^{2} and Stefano Zacchiroli^{3}
+1. Inria, Paris, France. antoine.pietri@inria.fr
+2. Université de Paris, Paris, France. guillaume.rousseau@u-paris.fr
+3. LTCI, Tlcom Paris, Institut Polytechnique de Paris, Paris, France. stefano.zacchiroli@telecom-paris.fr
+
+TODO: Add citation string
+
 It contains:
 
 - An explanation on how to reproduce the experiments described in the paper (in
