@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from functools import cached_property
 
+#Antoine Pietri(1), Guillaume Rousseau(2) and Stefano Zacchiroli(3)
+#1. Inria, Paris, France. antoine.pietri@inria.fr
+#2. Université de Paris, Paris, France. guillaume.rousseau@u-paris.fr
+#3. LTCI, Tlcom Paris, Institut Polytechnique de Paris, Paris, France. stefano.zacchiroli@telecom-paris.fr
+# TODO: Add citation string
 
 def load_text_distribution(path):
     d = [
@@ -77,11 +82,9 @@ class Distribution:
                     missing += 1
             if missing == 1:
                 break
-        # on repart du plus grand (à partir du moment où certaines valeurs sont
-        # manquantes)
-        # en excluant la dernière valeur -> division par zero (1/ln(1))
-        # print(x_min)
-        # print(self.x)
+        # we start from the largest (from the point where some values 
+        # are missing, excluding the last value -> division by zero (1/ln(1))
+
         if len(x_min) != 0:
             max_x_min = max(x_min)
         else:
@@ -226,6 +229,13 @@ class Distribution:
         x_after_pivot = self.x[self.x >= pivot]
         y_after_pivot = self.y[self.x >= pivot]
 
+        
+        # In accordance with the RR, we display the power law 
+        # corresponding to the continuous estimator of alpha. 
+        # It is possible to see the difference explicitly 
+        # by calling the e_x_min_shift method instead of e_xmin 
+        # in the next two lines.
+        
         ax.plot(
             x_before_pivot[x_before_pivot > 0],
             (
