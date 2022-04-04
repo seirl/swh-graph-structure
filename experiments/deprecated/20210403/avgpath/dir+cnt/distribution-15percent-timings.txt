@@ -1,1 +1,0 @@
-2020-10-14 15:02:54,918 585605637 INFO [pool-1-thread-1] ROOT - 2,641,698,362 nodes, 162h 11m 49s, 4,524.16 nodes/s, 221.04 µs/node; 15% done, 886h 13m 52s to end                       
