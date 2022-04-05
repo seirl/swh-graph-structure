@@ -1,0 +1,14 @@
+dir:cnt 149267317723
+dir:dir 64584351336
+dir:rev 792196260
+ori:snp 776112709
+rel:cnt 1066
+rel:dir 1678
+rel:rel 38219
+rel:rev 16492908
+rev:dir 1971187167
+rev:rev 2021009703
+snp:cnt 2100
+snp:dir 677
+snp:rel 700823546
+snp:rev 1358538567
